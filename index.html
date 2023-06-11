@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Example</title>
+  <style>
+    .container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .item {
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+    
+    #resetButton {
+      margin-top: 10px;
+    }
+  </style>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h2>Drag and Drop Example</h2>
+  
+  <div class="container" id="container1">
+    <div class="item" draggable="true">Item 1</div>
+    <div class="item" draggable="true">Item 2</div>
+    <div class="item" draggable="true">Item 3</div>
+  </div>
+  
+  <div class="container" id="container2"></div>
+  
+  <button id="resetButton">Reset</button>
+</body>
+</html>
